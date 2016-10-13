@@ -32,7 +32,7 @@ def entryrules(self):
         elif int(item[1:]) == 90:
             print ("This nightclub is not able to assist this person", item)
         else:
-            # All those who are allowed
+            # All people who are allowed can enter
             Q_IN_queue.put(item)
 
     while not Q_IN_queue.empty():
