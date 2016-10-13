@@ -25,8 +25,8 @@ def entryrules(self):
             new_sorted_list[item + 1] = array[1]
 
     for item in new_sorted_list:
-        # **No under 18 persons are allowed**
-        # select the age of the person and check if the person is allowed or not
+        # **No under 18 persons are allowed to enter WhooziJucy**
+        # select the age of the person and check if the person is not greater than 90
         if int(item[1:]) < 18:
             print ("This person is not allowed ", item)
         elif int(item[1:]) == 90:
